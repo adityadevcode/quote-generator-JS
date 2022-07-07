@@ -1,0 +1,70 @@
+/*to remove default settings in page*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*container lo center vachetaniki body use chesam */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/*container styles */
+.container{
+    background-color: #5372f0;
+    color: white;
+    width: 60%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    /* oka oka item madhya gap vasthundi dani cover chesetaniki use chestham below */
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 30px;
+}
+
+#heading{
+    margin-bottom: 20px;
+    color: antiquewhite;
+}
+#quote{
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 30px;
+    
+
+}
+.fa-quote-left{
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.fa-quote-right{
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+#author{
+    align-self: flex-end;
+}
+
+/*getquote button */
+#getQuote{
+    width: 200px;
+    margin-top: 10px;
+    padding: 12px 0;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: white;
+    color: rgba(41, 32, 32, 0.863);
+}
