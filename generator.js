@@ -89,7 +89,7 @@ async function quoteAPI(){
 
 }
 
-document.getElementById("getQuote").onclick = quoteAPI()
+document.getElementById("getQuote").onclick = quoteAPI
 /*event listner add chesinapudu function name ivali paranthesis isthe
 ha function automatic ga run avuthundi oka sare run avuthindi
 -function name ivali paranthesis ivadu
